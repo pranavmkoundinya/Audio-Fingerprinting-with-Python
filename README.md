@@ -7,6 +7,7 @@ It is based on the fingerprint/hashing algoritm developed by Shazam Inc.
 Before running the code, make sure u have the following already in your system:
 1. Jupyter Notebook
 2. MySQL: Create a database named "songsdb". After setting this as the default database, create three tables in it using the following code:-
+                  
                   CREATE TABLE rechashes(num INT AUTO_INCREMENT PRIMARY KEY, hashes VARCHAR(255), recoffset INT)
                   CREATE TABLE ref(song_id INT AUTO_INCREMENT PRIMARY KEY, Song_name VARCHAR(255))
                   CREATE TABLE songsource(hashval_ VARCHAR(255), song_id INT, offset_ INT)  
