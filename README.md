@@ -13,4 +13,4 @@ Before running the code, make sure u have the following already in your system:
                   CREATE TABLE songsource(hashval_ VARCHAR(255), song_id INT, offset_ INT)  
 3. A good quality microphone to record noise-free audio.
 
-While trying to read new songs into the database, try to cropped versions of the song(1-2 mins) rather than the standard 3-4 mins versions
+While trying to read new songs into the database, try to use cropped versions of the song(1-2 mins) rather than the standard 3-4 mins versions
